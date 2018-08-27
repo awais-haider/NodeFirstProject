@@ -9,7 +9,7 @@ var request = require("http");
 request.createServer(function (req, res) {
 
     res.writeHead(200 ,{'Content-Type':'application/json'});
-    res.write('Hello Wolrd from Server');
+    res.write('Hello World');
     res.end();
 
 
